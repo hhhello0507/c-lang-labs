@@ -37,8 +37,9 @@ GLuint indices[] = {
         2, 7, 6   // À§ ¸é »ï°¢Çü 2
 };
 
-const char* vertexShaderPath = "/Users/dgsw8th71/Desktop/c/example/vertex_shader.glsl";
-const char* fragmentShaderPath = "/Users/dgsw8th71/Desktop/c/example/fragment_shader.glsl";
+const std::string BASE_PATH = "/Users/dgsw8th71/Desktop/develop/MyGameEngine/example";
+const std::string vertexShaderPath = BASE_PATH + "/vertex_shader.glsl";
+const std::string fragmentShaderPath = BASE_PATH + "/fragment_shader.glsl";
 
 bool initSDL(SDL_Window** window, SDL_GLContext* context) {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
