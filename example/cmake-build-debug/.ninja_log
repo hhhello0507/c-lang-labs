@@ -1,0 +1,7 @@
+# ninja log v5
+1	64	1691731942755448408	build.ninja	411e616ac66f4715
+691	857	1691731665469773997	example	afe7f720515825c8
+8	458	1691730459420151498	CMakeFiles/example.dir/physics/Vector3.cpp.o	aa11436829f4db35
+8	691	1691731665300954411	CMakeFiles/example.dir/main.cpp.o	7bdf3ad46737c8b4
+7	457	1691730459420190749	CMakeFiles/example.dir/physics/Vector2.cpp.o	71d41a5861063cb
+8	427	1691731345219734237	CMakeFiles/example.dir/shader_utils.cpp.o	46994d9498c6e76d
