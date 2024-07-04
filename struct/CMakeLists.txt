@@ -7,4 +7,5 @@ add_executable(
         struct main.c
         struct_with_char.c
         pointer.c
+        struct_init.c
 )
