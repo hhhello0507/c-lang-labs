@@ -9,6 +9,13 @@ void copy_str(const char *origin, char *copy) {
     *copy = '\0';
 }
 
+void copy_str2(char origin[], char copy[]) {
+    int i = 0;
+    while (copy[i] = origin[i] != '\0') {
+        i++;
+    }
+}
+
 void add_str(char *str1, char *str2) {
     while (*str1) {
         str1++;
